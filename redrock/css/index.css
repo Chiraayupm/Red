@@ -1,0 +1,350 @@
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+/* OWL */
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font-size: 34px !important;
+}
+
+owl-theme .owl-nav {
+    margin-top: 0px !important;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #901A1E;
+}
+
+.navbar-toggler {
+    background-color: white !important;
+    color: white !important;
+}
+
+.img-logo {
+    margin-left: 40px;
+    width: 140px;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-right: 40px;
+    margin-left: 23px;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+
+/* HERO */
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 3%;
+}
+
+.head {
+    max-height: 800px;
+    width: 100%;
+}
+
+.texts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+
+.p-head {
+    font-weight: 400;
+    font-size: 1.1rem;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.btn-image {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 5%;
+    color: #fff !important;
+    background-color: #901A1E !important;
+}
+
+/* BENEFITS */
+#benefits{
+    color: #fff;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    letter-spacing: 4px;
+    color: #901A1E;
+}
+
+.bene{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #2A2A2A;
+    margin: 2%;
+}
+
+.img-bene{
+    width: 40%;
+    margin-top: 15%;
+}
+
+h3{
+    margin-top: 10%;
+}
+
+.p-bene{
+    margin-top: 3%;
+}
+
+.btn-bene{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #fff !important;
+    background-color: #901A1E !important;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/* TESTIMONIAL */
+
+.testimonails{
+    background-color: #2A2A2A;
+}
+
+
+/* ABOUT US */
+
+.about{
+    color: #fff;
+    background-color: #901A1E;
+}
+
+.about-h{
+    padding-top: 5%;
+    color: #fff;
+}
+
+.about-p1{
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 2% 5% 0% 5%;
+}
+
+.about-p2{
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0% 5% 5% 5%;
+}
+
+
+
+/* Contact US*/
+
+#Contact-Us {
+    /* align-items: center; */
+    text-align: center;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.contact-text-2 {
+    margin: 5%;
+}
+
+.contact-text {
+    text-align: center;
+    font-weight: 500;
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.2rem;
+}
+
+.cols {
+    /* justify-content: center; */
+    padding: 3%;
+    background-color: #2A2A2A;
+}
+
+.ids-2 {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2%;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 10%;
+}
+
+.ids {
+    text-align: left;
+    padding: 3%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.icon {
+    font-size: 25px;
+    margin: 0% 5% 0% 5%;
+}
+
+.forms {
+    padding: 4%;
+    text-align: left;
+    color: black;
+}
+
+.form-control {
+    border-width: 1px;
+    border-color: black;
+}
+
+.btn-sm {
+    margin-top: 8%;
+    font-size: 1.2rem;
+}
+
+.fag {
+    margin: 0% 5% 0% 0%;
+}
+
+.contact-h{
+    color: #fff;
+}
+
+
+/* footer */
+
+.p-foo {
+    color: #fff;
+    background-color: black;
+    margin: 3% 0% 3% 0%;
+    text-align: center;
+}
+
+
+/* MEDIA */
+@media (max-width: 1028px) {
+
+    /* NAVBAR */
+    .nav-link {
+        text-align: left;
+    }
+
+    .img-logo {
+        margin-left: 20px;
+        width: 120px;
+    }
+
+    /* HERO */
+
+    .head {
+        width: 100%;
+        max-height: 900px;
+    }
+
+    .texts {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 0.6rem;
+    }
+
+
+    .p-head {
+        font-weight: 400;
+        font-size: 0.4rem;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .btn-image {
+        font-weight: 500;
+        font-size: 0.5rem;
+        margin-top: 2%;
+        color: #fff !important;
+        background-color: #901A1E !important;
+    }
+
+    /* BENEFITS */
+
+    .bene{
+        margin: auto;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    h1{
+
+        margin-top: 8%;
+        margin-bottom: 8%;
+
+    }
+
+     /* CONTACT */
+     .fag {
+        font-size: 32px;
+    }
+    .ids-2 {
+        font-size: 0.7rem;
+        margin-bottom: 6%;
+    }
+    .ids {
+        text-align: center;
+        padding: 3%;
+        color: #fff;
+        font-weight: 600;
+    }
+    .contact-text {
+        /* justify-content: center; */
+        font-weight: 500;
+        padding: 1%;
+        margin: 0%;
+        font-size: 0.7rem;
+    }
+
+
+}
