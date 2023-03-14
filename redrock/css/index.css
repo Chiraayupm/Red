@@ -110,15 +110,18 @@ h1 {
 }
 
 .bene {
-    height: 300px;
+    height: 250px;
     width: 300px;
     border-radius: 10px;
     background-color: #2A2A2A;
     margin: 2%;
+    display: none;
 }
 
 .img-bene {
-    width: 40%;
+    padding: 2%;
+    width: 30%;
+    height: 30%;
     margin-top: 15%;
 }
 
@@ -127,6 +130,7 @@ h3 {
 }
 
 .p-bene {
+    padding: 5%;
     margin-top: 3%;
 }
 
@@ -139,6 +143,32 @@ h3 {
     margin-bottom: 2%;
 }
 
+#loadMore {
+    width: 200px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: blue;
+    transition: .3s;
+}
+
+#loadMore:hover {
+    color: blue;
+    background-color: #fff;
+    border: 1px solid blue;
+    text-decoration: none;
+}
+
+.noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+}
+
 
 /* TESTIMONIAL */
 
@@ -146,7 +176,7 @@ h3 {
     background-color: #2A2A2A;
 }
 
-.testimonials h1{
+.testimonials h1 {
     padding-top: 4%;
 }
 
@@ -362,13 +392,24 @@ h3 {
 
 
 /* footer */
+.footer {
+    color: #fff;
+    background-color: #901A1E;
+}
+
+.footer-p {
+    font-size: 1.2rem;
+    margin-top: 20%;
+}
+
+.footer-img {
+    width: 30%;
+}
 
 .p-foo {
-    color: #fff;
-    background-color: black;
-    margin: 3% 0% 3% 0%;
+    margin: 0% 0% 3% 0%;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     font-weight: 500;
     padding: 2%;
@@ -433,7 +474,7 @@ h3 {
     }
 
     h1 {
-
+        font-size: 2rem;
         margin-top: 8%;
         margin-bottom: 8%;
 
@@ -445,11 +486,13 @@ h3 {
         margin-top: 20px;
     }
 
-    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
-      outline: 0;
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        outline: 0;
     }
+
     .owl-carousel button.owl-dot {
-      outline: 0;
+        outline: 0;
     }
 
 
@@ -478,5 +521,26 @@ h3 {
         font-size: 0.7rem;
     }
 
+
+    /* ABOUT */
+
+    .about-p1 {
+        font-size: 0.9rem;
+        font-weight: 400;
+        padding: 5% 5% 0% 5%;
+    }
+    
+    .about-p2 {
+        text-align: left;
+        font-size: 0.9rem;
+        font-weight: 400;
+        padding: 3% 5% 10% 5%;
+    }
+
+    /* FOOTER */
+    .footer-p {
+        font-size: 0.8rem;
+        margin-top: 20%;
+    }
 
 }
